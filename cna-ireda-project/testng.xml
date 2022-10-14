@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+
+			<class name="testpages.SchemeBudgetEntryTest1" />
+			
+			<class name="testpages.IAcreationTest" />
+
+			<class name="testpages.LimitTransferToIATest1" />
+		
+			<class name="testpages.VendorCreationPageTest1" />
+			
+			<class name="testpages.HoldingAccountMappingWorkTest" />
+			
+			<class name="testpages.AdministrativeApprovalCreationTest" />
+			
+			<class name="testpages.WorkCreation1Test" />
+			
+			<!--  <class name="testpages.IamakerBillGenationTest" /> -->
+			<class name="testpages.GenerateBillTypeWorkTest" />
+			
+			<class name="testpages.CNALimitRecallTest" />
+			
+			
+			
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+<class name="testpages.IAcreationTest" />
+			<class name="testpages.SchemeBudgetEntryHeadCode1Test" />
+			<class name="testpages.SchemeBudgetEntryHeadCode2Test" />
+			<class name="testpages.IAcreationTest" />
+			<class name="testpages.TransferLimitToIAHeadCode1Test" />
+			<class name="testpages.TransferLimitToIAHeadCode2Test" />
+			<class name="testpages.VendorCreationPage" />
+			<class name="testpages.VendorCreationPage_2" />
+			<class name="testpages.DeductionAcountMappingTest" />
+			<class name="testpages.IAMAdministrativeApprovalCreationTest" />
+			<class name="testpages.IACheckerInboxOutboxTest" />
+			<class name="testpages.WorkCreationHeadCode1Test" />
+			<class name="testpages.WorkCreationHeadCode2Test" />
+			<class name="testpages.Iamakerbillgenationtestdata" />
+			<class name="testpages.Iamakerbillgenationtestdata_HeadC2" />
+			<class name="testpages.IAMGenerateBillTypeWorkTest" />
+			<class name="testpages.IAMGenerateBillTypeWorkHeadcode2Test" />
+			<class name="testpages.IACBillTransectionInwardOutwordTest" />
+
+
+		</classes>
+	</test>  
+</suite> -->

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="cna(failed)">
+    <parameter name="" value=""/>
+    <classes>
+      <class name="testpages.CNAmakerLimitAllocationTest">
+        <methods>
+          <include name="CNAmakerLimitAlloction"/>
+          <include name="ApplicationClose"/>
+          <include name="CloseBrowser"/>
+          <include name="openbrowser"/>
+          <include name="AplicationLogin"/>
+        </methods>
+      </class> <!-- testpages.CNAmakerLimitAllocationTest -->
+      <class name="testpages.projectDetailsCreationTest">
+        <methods>
+          <include name="AplicationLogin"/>
+          <include name="ApplicationClose"/>
+          <include name="openbrowser"/>
+          <include name="IAMAKERM_VenderCreation"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- testpages.projectDetailsCreationTest -->
+      <class name="testpages.CNAmakerBudgetAssign">
+        <methods>
+          <include name="CNAmakerBudgetAssign"/>
+          <include name="CloseBrowser"/>
+          <include name="AplicationLogin"/>
+          <include name="ApplicationClose"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- testpages.CNAmakerBudgetAssign -->
+      <class name="testpages.IACheckerInboxOutboxTest">
+        <methods>
+          <include name="IAAdministrativeApprovalCreation"/>
+          <include name="openbrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="AplicationLogin"/>
+          <include name="ApplicationClose"/>
+        </methods>
+      </class> <!-- testpages.IACheckerInboxOutboxTest -->
+      <class name="testpages.Iamakerbillgenationtestdata">
+        <methods>
+          <include name="Billpage"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- testpages.Iamakerbillgenationtestdata -->
+      <class name="testpages.IAMAdministrativeApprovalCreationTest">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="AplicationLogin"/>
+          <include name="IAAdministrativeApprovalCreation"/>
+          <include name="ApplicationClose"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- testpages.IAMAdministrativeApprovalCreationTest -->
+      <class name="testpages.IACBillTransectionInwardOutwordTest">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="IAAdministrativeApprovalCreation"/>
+          <include name="CloseBrowser"/>
+          <include name="AplicationLogin"/>
+          <include name="ApplicationClose"/>
+        </methods>
+      </class> <!-- testpages.IACBillTransectionInwardOutwordTest -->
+      <class name="testpages.DeductionAcountMappingData">
+        <methods>
+          <include name="verifyCNApage"/>
+          <include name="openbrowser"/>
+          <include name="Billpage"/>
+        </methods>
+      </class> <!-- testpages.DeductionAcountMappingData -->
+      <class name="testpages.VendorCreationPage">
+        <methods>
+          <include name="verifyCNApage"/>
+          <include name="openbrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="AplicationLogin"/>
+          <include name="ApplicationClose"/>
+        </methods>
+      </class> <!-- testpages.VendorCreationPage -->
+      <class name="testpages.IAMGenerateBillTypeWorkTest">
+        <methods>
+          <include name="AplicationLogin"/>
+          <include name="CloseBrowser"/>
+          <include name="openbrowser"/>
+          <include name="verifyCNApage"/>
+        </methods>
+      </class> <!-- testpages.IAMGenerateBillTypeWorkTest -->
+    </classes>
+  </test> <!-- cna(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
